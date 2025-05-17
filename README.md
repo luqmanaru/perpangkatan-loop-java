@@ -14,6 +14,32 @@ Program ini menunjukkan cara menghitung perpangkatan menggunakan tiga jenis peru
 ## 💻 Contoh Output & Perbandingan
 |Jenis Loop	|Output|	Penjelasan|
 |------|-----------|----------|
-While	Hasil perpangkatan: 81	Mengecek kondisi sebelum eksekusi
-Do-While	Hasil perpangkatan: 81	Mengeksekusi minimal 1 kali sebelum cek kondisi
-For	Hasil perpangkatan: 81	Menggabungkan inisialisasi, kondisi, dan iterasi dalam satu baris
+|While	|Hasil perpangkatan: 81	|Mengecek kondisi sebelum eksekusi|
+|Do-While|	Hasil perpangkatan: 81	|Mengeksekusi minimal 1 kali sebelum cek kondisi|
+|For	|Hasil perpangkatan: 81	|Menggabungkan inisialisasi, kondisi, dan iterasi dalam satu baris|
+
+---
+
+## 📊 Detail Implementasi
+```java
+// While Loop
+while (count < pangkat) {
+    hasil *= angka;
+    count++;
+}
+
+// Do-While Loop
+do {
+    hasil *= angka;
+    count++;
+} while (count < pangkat);
+
+// For Loop
+for (int i = 0; i < pangkat; i++) {
+    hasil *= angka;
+}
+```
+
+---
+
+**luqmanaru**
